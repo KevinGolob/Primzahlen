@@ -10,7 +10,7 @@ public class PrimzahlBerechnen {
 	
 	
 	public static void berechnen(){
-		for (int i=2; i<=50000; i++){
+		for (int i=1; i<=50000; i++){
 			boolean prime = true;
 			for (int j=2; j<i; j++){
 				if(i%j == 0){
